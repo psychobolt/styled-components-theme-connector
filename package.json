@@ -1,9 +1,9 @@
 {
-  "name": "react-rollup-boilerplate",
+  "name": "styled-components-theme-connector",
   "version": "0.1.0",
-  "description": "A boilerplate for building React libraries",
+  "description": "Connect React components with default styles from styled-components' ThemeProvider",
   "main": "dist/index.js",
-  "repository": "https://github.com/psychobolt/react-rollup-boilerplate.git",
+  "repository": "https://github.com/psychobolt/styled-components-theme-connector.git",
   "author": "psychobolt",
   "license": "MIT",
   "scripts": {
@@ -73,6 +73,7 @@
     "flow-typed": "2.4.0",
     "jest": "^22.4.3",
     "jest-styled-components": "^5.0.1",
+    "lodash": "^4.17.10",
     "prop-types": "^15.6.1",
     "raf": "^3.4.0",
     "react": "^16.3.2",
@@ -87,6 +88,7 @@
     "rollup-plugin-scss": "^0.4.0",
     "rollup-plugin-uglify": "^3.0.0",
     "styled-components": "^3.2.6",
+    "styled-theming": "^2.2.0",
     "stylelint": "^9.2.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-config-styled-components": "^0.1.1",
