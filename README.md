@@ -20,6 +20,8 @@ yarn add styled-components styled-components-theme-connector
 
 ## Example Usage
 
+[DEMOS](https://psychobolt.github.io/styled-components-theme-connector/)
+
 components.jsx
 ```jsx
 import React from 'react';
