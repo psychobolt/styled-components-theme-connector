@@ -1,6 +1,6 @@
 {
   "name": "styled-components-theme-connector",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect React components with default styles from styled-components' ThemeProvider",
   "main": "dist/index.js",
   "repository": "https://github.com/psychobolt/styled-components-theme-connector.git",
@@ -42,7 +42,7 @@
     "@storybook/addon-links": "^3.4.8",
     "@storybook/react": "^3.4.8",
     "babel-core": "^6.26.3",
-    "babel-eslint": "8.2.6",
+    "babel-eslint": "8.2.2",
     "babel-jest": "^23.4.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-lodash": "^3.3.4",
@@ -59,7 +59,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
-    "eslint": "5.1.0",
+    "eslint": "4.19",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-react-app": "^2.1.0",
     "eslint-import-resolver-babel-module": "^4.0.0",
@@ -87,7 +87,7 @@
     "rollup-plugin-scss": "^0.4.0",
     "rollup-plugin-uglify": "^4.0.0",
     "storybook-readme": "^3.3.0",
-    "styled-components": "^3.2.6",
+    "styled-components": "^3.3.3",
     "styled-theming": "^2.2.0",
     "stylelint": "^9.3.0",
     "stylelint-config-standard": "^18.2.0",
@@ -97,8 +97,8 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^16.4",
-    "react-dom": "^16.4",
-    "styled-components": "^3.2.6"
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3"
   }
 }
