@@ -6,11 +6,18 @@ import theme from './List.theme';
 
 const Container = connectTheme('list.container')('div');
 
-const List = connectTheme('list.ul')(({ className, ...props }) => (
-  <Container>
-    <p>{props.label}</p>
-    <ul>{props.children}</ul>
-  </Container>
-));
+const List = connectTheme('list.ul')(({ className, ...props }) => {
+  const { label, children } = props;
+  return (
+    <Container>
+      <p>
+        {label}
+      </p>
+      <ul>
+        {children}
+      </ul>
+    </Container>
+  );
+});
 
 export default withDefaultTheme(theme, 'list')(List);

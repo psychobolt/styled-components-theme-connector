@@ -20,6 +20,11 @@ export default (theme: {}, themeName: string) => {
       ...customRest,
     };
   };
-  return (Component: React.ComponentType<any>) => ({ children, ...props }: Props) =>
-    <ThemeProvider theme={getTheme}><Component {...props}>{children}</Component></ThemeProvider>;
+  return (Component: React.ComponentType<any>) => ({ children, ...props }: Props) => (
+    <ThemeProvider theme={getTheme}>
+      <Component {...props}>
+        {children}
+      </Component>
+    </ThemeProvider>
+  );
 };

@@ -16,17 +16,29 @@ const customTheme = {
 storiesOf('List', module)
   .add('with default theme', () => (
     <List label="Todo List">
-      <Item>Clean</Item>
-      <Item>Sleep</Item>
-      <Item>Work</Item>
+      <Item>
+        {'Clean'}
+      </Item>
+      <Item>
+        {'Sleep'}
+      </Item>
+      <Item>
+        {'Work'}
+      </Item>
     </List>
   ))
   .add('with custom theme', () => (
     <ThemeProvider theme={customTheme}>
       <List label="Pets">
-        <Item>Dog</Item>
-        <Item>Cat</Item>
-        <Item>Turtle</Item>
+        <Item>
+          {'Dog'}
+        </Item>
+        <Item>
+          {'Cat'}
+        </Item>
+        <Item>
+          {'Turtle'}
+        </Item>
       </List>
     </ThemeProvider>
   ));
