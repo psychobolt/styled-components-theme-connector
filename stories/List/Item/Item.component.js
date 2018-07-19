@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { connectTheme } from 'src';
+import { connectTheme } from 'dist';
 
 const Item = styled.li`
   padding: 5px;

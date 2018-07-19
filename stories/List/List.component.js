@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { withDefaultTheme, connectTheme } from 'src';
+import { withDefaultTheme, connectTheme } from 'dist';
 
 import theme from './List.theme';
 
