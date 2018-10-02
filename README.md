@@ -39,10 +39,7 @@ const List = connectTheme('list.ul')(({ className, ...props }) => (
     <p>{props.label}</p>
     <ul>{props.children}</ul>
   </Container>
-))
-.extend`
-  /* Additional style */
-`;
+));
 
 export const Item = connectTheme('list.li')(StyledItem);
 
