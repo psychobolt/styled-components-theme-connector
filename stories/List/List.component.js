@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { withDefaultTheme, connectTheme } from 'dist';
+import { withDefaultTheme, connectTheme } from 'styled-components-theme-connector';
 
 import theme from './List.theme';
 
