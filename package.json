@@ -103,6 +103,7 @@
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-scss": "^0.4.0",
     "rollup-plugin-uglify": "^6.0.0",
+    "source-map-loader": "^0.2.4",
     "storybook-readme": "^4.0.0-beta1",
     "styled-components": "^4.0.0-beta.9",
     "styled-theming": "^2.2.0",
@@ -116,7 +117,6 @@
     "@lerna/publish": "3.3.2"
   },
   "dependencies": {
-    "@lerna/publish": "3.4.0",
     "react-is": "^16.5.2"
   },
   "peerDependencies": {
