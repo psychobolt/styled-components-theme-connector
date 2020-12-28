@@ -34,10 +34,10 @@ import StyledItem from './Item'; // styled component
 
 const Container = connectTheme('list.container')('div');
 
-const List = connectTheme('list.ul')(({ className, ...props }) => (
+const List = connectTheme('list.ul')(({ className, label, children }) => (
   <Container>
-    <p>{props.label}</p>
-    <ul>{props.children}</ul>
+    <p>{label}</p>
+    <ul className={className}>{children}</ul>
   </Container>
 ));
 
@@ -61,14 +61,16 @@ const theme = {
   mode: 'light',
   list: {
     container: css`
-      background-color: ${boxBackgroundColor}
+      background-color: ${boxBackgroundColor};
       /* styles... */
     `,
     ul: css`
+      list-style-type: circle;
       /* styles... */
     `,
     li: css`
-      color: ${textColor}
+      color: ${textColor};
+      /* styles... */
     `
   }
 };

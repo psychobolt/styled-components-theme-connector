@@ -9,6 +9,7 @@ const customTheme = {
   mode: 'light',
   list: {
     container: 'background-color: #ecd3ee',
+    ul: 'list-style-type: circle',
     li: 'color: blue',
   },
 };
