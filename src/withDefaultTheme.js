@@ -7,7 +7,7 @@ type Props = {
   children: any
 };
 
-export default (theme: {}, themeName: string) => {
+export default ((theme, themeName) => {
   const defaultTheme = themeName ? { [themeName]: theme[themeName] } : theme;
   const rest = themeName ? omit(theme, themeName) : undefined;
   const getTheme = (custom = {}) => {
@@ -20,11 +20,12 @@ export default (theme: {}, themeName: string) => {
       ...customRest,
     };
   };
-  return (Component: React.ComponentType<any>) => ({ children, ...props }: Props) => (
+  return Component => ({ children, ...props }: Props) => (
     <ThemeProvider theme={getTheme}>
       <Component {...props}>
         {children}
       </Component>
     </ThemeProvider>
   );
-};
+}: (theme: {}, themeName: string) =>
+  (Component: React.ComponentType<any>) => React.AbstractComponent<Props>);

@@ -1,1 +1,4 @@
-import './List';
+module.exports = [
+  './Readme.mdx',
+  './List/index.js',
+];
