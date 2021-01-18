@@ -4,15 +4,6 @@ import { ThemeProvider } from 'styled-components';
 import List from './List.component';
 import Item from './Item';
 
-const customTheme = {
-  mode: 'light',
-  list: {
-    container: 'background-color: #ecd3ee',
-    ul: 'list-style-type: circle',
-    li: 'color: blue',
-  },
-};
-
 export default {
   title: 'List',
   component: List,
@@ -27,6 +18,15 @@ export const DefaultList = () => (
 );
 
 DefaultList.storyName = 'with default theme';
+
+const customTheme = {
+  mode: 'light',
+  list: {
+    container: 'background-color: #ecd3ee',
+    ul: 'list-style-type: circle',
+    li: 'color: blue',
+  },
+};
 
 export const CustomList = () => (
   <ThemeProvider theme={customTheme}>
