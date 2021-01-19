@@ -1,18 +1,19 @@
 // @flow
 import * as React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { omit } from 'lodash';
+import { omit, pick, isArray } from 'lodash';
 
 type Props = {
   children: any
 };
 
-export default ((theme, themeName) => {
-  const defaultTheme = themeName ? { [themeName]: theme[themeName] } : theme;
-  const rest = themeName ? omit(theme, themeName) : undefined;
+export default ((theme, rootName) => {
+  const keys = isArray(rootName) ? rootName : (rootName && [rootName]) || undefined;
+  const defaultTheme = keys ? pick(theme, keys) : theme;
+  const rest = keys ? omit(theme, keys) : undefined;
   const getTheme = (custom = {}) => {
-    const customTheme = themeName ? { [themeName]: custom[themeName] } : custom;
-    const customRest = themeName ? omit(custom, themeName) : undefined;
+    const customTheme = keys ? pick(custom, keys) : custom;
+    const customRest = keys ? omit(custom, keys) : undefined;
     return {
       ...rest,
       _defaultTheme: defaultTheme,

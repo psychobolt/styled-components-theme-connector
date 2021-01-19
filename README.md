@@ -75,8 +75,8 @@ const theme = {
   }
 };
 
-export default withDefaultTheme(theme, 'list' /* - Optional theme name */)(List);
-// If theme name is present, only the specified prop can be wired. Other properties can be accessed manually e.g. css`${({ theme }) => theme.mode}`
+export default withDefaultTheme(theme, 'list' /* - Optional theme name(s): 'theme' or ['themeComp1', 'themeComp2'] */)(List);
+// If a theme name is present, only the specified values can be wired. Other properties can be accessed manually e.g. css`${({ theme }) => theme.mode}`
 ```
 
 app.jsx
