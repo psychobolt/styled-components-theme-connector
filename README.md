@@ -83,6 +83,8 @@ app.jsx
 ```jsx
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
+// Optionally import ThemeContextProvider to provide a context for your themes
+import { ThemeContextProvider } from 'styled-components-theme-connector';
 
 import List, { Item } from './components'
 
@@ -98,7 +100,7 @@ const overrides = {
   }
 };
 
-export default () => (
+export default ({ context }) => (
   <div>
     {/* Use default theme */}
     <List label="Todo List">
@@ -111,7 +113,10 @@ export default () => (
       <List label="Pets">
         <Item>Dog</Item>
         <Item>Cat</Item>
-        <Item>Turtle</Item>
+        <ThemeContextProvider {...context}>
+          {/* Now, any props passed to ThemeContextProvider (besides theme & children) can be accessed from theme.context in styled components. */}
+          <Item>Turtle</Item>
+        </ThemeContextProvider>
       </List>
     </ThemeProvider>
   </div>
