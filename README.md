@@ -1,8 +1,8 @@
 # Styled Components Theme Connector
 
 [![npm](https://img.shields.io/npm/v/styled-components-theme-connector.svg)](https://www.npmjs.com/package/styled-components-theme-connector)
-[![Build Status](https://travis-ci.org/psychobolt/styled-components-theme-connector.svg?branch=master)](https://travis-ci.org/psychobolt/styled-components-theme-connector)
-[![codecov](https://codecov.io/gh/psychobolt/styled-components-theme-connector/branch/master/graph/badge.svg)](https://codecov.io/gh/psychobolt/styled-components-theme-connector)
+[![Main workflow](https://github.com/psychobolt/styled-components-theme-connector/actions/workflows/main.yml/badge.svg)](https://github.com/psychobolt/styled-components-theme-connector/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/psychobolt/styled-components-theme-connector/branch/master/graph/badge.svg?flag=styled-components-theme-connector)](https://codecov.io/gh/psychobolt/styled-components-theme-connector/tree/master/src)
 
 [![Dependencies Status](https://david-dm.org/psychobolt/styled-components-theme-connector.svg)](https://david-dm.org/psychobolt/styled-components-theme-connector)
 [![Dev Dependencies Status](https://david-dm.org/psychobolt/styled-components-theme-connector/dev-status.svg)](https://david-dm.org/psychobolt/styled-components-theme-connector?type=dev)
