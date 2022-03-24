@@ -2,8 +2,8 @@ import React from 'react';
 import { ThemeProvider, css } from 'styled-components';
 import { ThemeContextProvider, connectTheme } from 'styled-components-theme-connector';
 
-import List from './List.component';
-import Item from './Item';
+import List from './List.component.js';
+import Item from './Item/index.js';
 
 export default {
   title: 'List',

@@ -1,3 +1,3 @@
-export { default as connectTheme } from './connectTheme';
-export { default as ThemeContextProvider } from './ThemeContextProvider.component';
-export { default as withDefaultTheme } from './withDefaultTheme';
+export { default as connectTheme } from './connectTheme.js';
+export { default as ThemeContextProvider } from './ThemeContextProvider.component.js';
+export { default as withDefaultTheme } from './withDefaultTheme.js';

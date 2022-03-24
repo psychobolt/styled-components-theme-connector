@@ -1,4 +1,26 @@
-import path from 'path';
 import spawn from 'cross-spawn';
 
-spawn.sync('lerna', ['exec', '--', 'flow-typed', 'update', '-s', '-i', 'peer', 'dev', '-p', path.resolve()], { stdio: 'inherit' });
+import { setup, getProjects, getPackageName } from './workspaces.js';
+import { rootResolve } from './shared/utils.js';
+
+await (setup());
+const projects = await (getProjects());
+
+const ROOT_RESOLVE = rootResolve();
+
+const libdefDir = './shared/flow-typed';
+
+/* eslint-disable no-console, no-await-in-loop, no-restricted-syntax */
+for (const [cwd] of projects) {
+  const name = await (getPackageName(cwd));
+  console.log(`Installing flow types for [${name}]`);
+  spawn.sync(
+    'yarn',
+    [
+      'workspace', name,
+      'exec', 'flow-typed', 'update', '--libdefDir', libdefDir, '-s', '-i', 'dev', '-p', ROOT_RESOLVE, '--verbose', '--skipFlowRestart',
+    ],
+    { stdio: 'inherit' },
+  );
+  console.log();
+}

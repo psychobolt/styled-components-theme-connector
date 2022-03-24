@@ -4,10 +4,6 @@
 [![Main workflow](https://github.com/psychobolt/styled-components-theme-connector/actions/workflows/main.yml/badge.svg)](https://github.com/psychobolt/styled-components-theme-connector/actions/workflows/main.yml)
 [![codecov](https://codecov.io/gh/psychobolt/styled-components-theme-connector/branch/master/graph/badge.svg?flag=styled-components-theme-connector)](https://codecov.io/gh/psychobolt/styled-components-theme-connector/tree/master/src)
 
-[![Dependencies Status](https://david-dm.org/psychobolt/styled-components-theme-connector.svg)](https://david-dm.org/psychobolt/styled-components-theme-connector)
-[![Dev Dependencies Status](https://david-dm.org/psychobolt/styled-components-theme-connector/dev-status.svg)](https://david-dm.org/psychobolt/styled-components-theme-connector?type=dev)
-[![Peer Dependencies Status](https://david-dm.org/psychobolt/styled-components-theme-connector/peer-status.svg)](https://david-dm.org/psychobolt/styled-components-theme-connector?type=peer)
-
 Connect React components with default themes by wiring styles from [styled-components](https://www.styled-components.com)' ThemeProvider.
 
 ## Install
