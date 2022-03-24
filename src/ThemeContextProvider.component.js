@@ -18,7 +18,7 @@ export default (({ theme, children, ...props }: Props) => (
       ...theme,
       context: {
         ...outerTheme.context,
-        // $FlowFixMe
+        // $FlowFixMe[exponential-spread]
         ...theme?.context,
         ...props,
       },
