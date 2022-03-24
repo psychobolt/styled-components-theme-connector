@@ -33,8 +33,9 @@ const customTheme = {
     `,
     pin: css`
       background-color: yellow;
+
       &::before {
-        content: '${({ theme }) => (theme?.context?.mode === 'inverted' ? '🖤' : '❤️')}';
+        content: "${({ theme }) => (theme?.context?.mode === 'inverted' ? '🖤' : '❤️')}";
       }
     `,
   },

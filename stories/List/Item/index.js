@@ -1,2 +1,2 @@
-export { default as styles } from './Item.style';
-export { default } from './Item.component';
+export { default as styles } from './Item.style.js';
+export { default } from './Item.component.js';
