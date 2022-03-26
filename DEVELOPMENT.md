@@ -34,10 +34,20 @@ This boilerplate supports [Monorepo](https://danluu.com/monorepo/) configuration
 ### Installing Types
 
 ```sh
-yarn flow-typed-install # clean & install flow definitions
+yarn flow-typed-install # clean & install flow definitions from dependencies and peerDependencies
 yarn flow-typed-update # downloads and updates new flow definitions
 cd shared/flow-deps && yarn install <package-name> # install any node modules that flow cannot resolve with PnP strategy
 ```
+
+### Creating Stubs
+
+```
+yarn flow-typed-create-stub <package-name> # create a flow-typed stub for a package name into shared/flow-typed/npm
+```
+
+> Note: Since the shared/flow-typed/npm is ignored, it is best to move the stub file so it can be committed.
+
+### Run Flow
 
 ```sh
 yarn flow # performs type checking on files
@@ -66,7 +76,7 @@ yarn test # runs functional/unit tests for all packages
 
 ## Coverage
 
-Coverage will be uploaded to your [codecov](https://codecov.io/) account, individually for packages by using each package's name as a [flag](https://docs.codecov.io/docs/flags). By default, coverage is configured to utilize a configuration from codecov-config branch (for [example](https://github.com/psychobolt/react-rollup-boilerplate/tree/codecov-config)). However, you may opt out that setting and configure codecov.yml in the master branch.
+Coverage will be uploaded to your [codecov](https://codecov.io/) account, individually for packages by using each package's name as a [flag](https://docs.codecov.io/docs/flags).
 
 ## Other scripts
 
