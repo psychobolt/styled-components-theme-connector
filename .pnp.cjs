@@ -103,7 +103,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.29.4"],\
             ["eslint-plugin-react-hooks", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.3.0"],\
             ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.7"],\
-            ["flow-bin", "npm:0.171.0"],\
+            ["flow-bin", "npm:0.174.1"],\
             ["flow-typed", "npm:3.7.0"],\
             ["glob", "npm:7.2.0"],\
             ["is-class", "npm:0.0.9"],\
@@ -13020,10 +13020,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["flow-bin", [\
-        ["npm:0.171.0", {\
-          "packageLocation": "./.yarn/unplugged/flow-bin-npm-0.171.0-40a89428d7/node_modules/flow-bin/",\
+        ["npm:0.174.1", {\
+          "packageLocation": "./.yarn/unplugged/flow-bin-npm-0.174.1-ef5745eb89/node_modules/flow-bin/",\
           "packageDependencies": [\
-            ["flow-bin", "npm:0.171.0"]\
+            ["flow-bin", "npm:0.174.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -22230,7 +22230,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.29.4"],\
             ["eslint-plugin-react-hooks", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.3.0"],\
             ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.7"],\
-            ["flow-bin", "npm:0.171.0"],\
+            ["flow-bin", "npm:0.174.1"],\
             ["flow-typed", "npm:3.7.0"],\
             ["glob", "npm:7.2.0"],\
             ["is-class", "npm:0.0.9"],\
