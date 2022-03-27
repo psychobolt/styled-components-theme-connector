@@ -6,4 +6,4 @@ import { get } from 'lodash';
 export default ((selector = '') => component => styled(component)`
   ${({ theme }) => get(theme, `_defaultTheme.${selector}`, '')}
   ${({ theme }) => get(theme, `_customTheme.${selector}`, '')}
-`: (selector: string) => (component: React.ComponentType<any>) => React.AbstractComponent<any>);
+`: (selector: string) => <T>(component: React.ElementRef<any>) => React.ComponentType<T>);

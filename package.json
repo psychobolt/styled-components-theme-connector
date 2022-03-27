@@ -121,7 +121,6 @@
     "jest": "^27.5.1",
     "jest-cli": "^27.5.1",
     "jest-styled-components": "^7.0.8",
-    "lodash": "^4.17.21",
     "micromatch": "^4.0.4",
     "postcss": "^8.4.6",
     "postcss-scss": "^4.0.3",
@@ -158,5 +157,8 @@
       "packages/*"
     ]
   },
-  "packageManager": "yarn@3.2.0-rc.16"
+  "packageManager": "yarn@3.2.0-rc.16",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

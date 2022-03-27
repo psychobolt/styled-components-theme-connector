@@ -7,7 +7,7 @@ type Theme = {
 };
 
 type Props = {
-  theme: Theme,
+  theme?: Theme,
   children: React.Node,
 };
 

@@ -28,5 +28,5 @@ export default ((theme, rootName) => {
       </Component>
     </ThemeProvider>
   );
-}: (theme: {}, themeName: string) =>
-  (Component: React.ComponentType<any>) => React.AbstractComponent<Props>);
+}: (theme: {}, themeName: string | string[]) =>
+<T>(Component: React.ComponentType<any>) => React.ComponentType<T & Props>);
