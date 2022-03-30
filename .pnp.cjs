@@ -126,7 +126,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
             ["rollup-plugin-terser", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.0.2"],\
             ["semver", "npm:7.3.5"],\
-            ["slash", "npm:4.0.0"],\
+            ["slash", "npm:3.0.0"],\
             ["source-map-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:3.0.1"],\
             ["styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:5.3.5"],\
             ["styled-theming", "npm:2.2.0"],\
@@ -21754,13 +21754,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["slash", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
-        }],\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/slash-npm-4.0.0-ce4bbc4a80-da8e4af737.zip/node_modules/slash/",\
-          "packageDependencies": [\
-            ["slash", "npm:4.0.0"]\
-          ],\
-          "linkType": "HARD"\
         }]\
       ]],\
       ["slice-ansi", [\
@@ -22661,7 +22654,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
             ["rollup-plugin-terser", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.0.2"],\
             ["semver", "npm:7.3.5"],\
-            ["slash", "npm:4.0.0"],\
+            ["slash", "npm:3.0.0"],\
             ["source-map-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:3.0.1"],\
             ["styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:5.3.5"],\
             ["styled-theming", "npm:2.2.0"],\
