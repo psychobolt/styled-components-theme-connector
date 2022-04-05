@@ -17467,7 +17467,7 @@ __metadata:
     slash: 3.0.0
     source-map-loader: 3.0.1
     styled-components: 5.3.5
-    styled-theming: ^2.2.0
+    styled-theming: 2.2.0
     stylelint: 14.6.1
     stylelint-config-standard-scss: 3.0.0
     stylelint-config-styled-components: 0.1.1
@@ -17478,7 +17478,7 @@ __metadata:
   peerDependencies:
     react: ^17.0.2
     react-dom: ^17.0.2
-    styled-components: ^5.2.3
+    styled-components: ^5.2.5
   languageName: unknown
   linkType: soft
 
@@ -17504,7 +17504,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-theming@npm:^2.2.0":
+"styled-theming@npm:2.2.0":
   version: 2.2.0
   resolution: "styled-theming@npm:2.2.0"
   checksum: b165dc26e896a6ff221dfe65038d2b06f99129bae0030abd61df51bb8cbd9086dd0f1633fa1f1eb6d0e13869f2919162b47b5d1b3aefc227c69cd970595404fe
