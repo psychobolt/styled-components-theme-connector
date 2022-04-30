@@ -123,7 +123,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-is", "npm:18.1.0"],\
             ["require-from-string", "npm:2.0.2"],\
             ["rimraf", "npm:3.0.2"],\
-            ["rollup", "npm:2.71.0"],\
+            ["rollup", "npm:2.71.1"],\
             ["rollup-plugin-flow-entry", "npm:0.3.6"],\
             ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
             ["rollup-plugin-terser", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.0.2"],\
@@ -6010,7 +6010,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@rollup/plugin-alias", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:3.1.9"],\
             ["@types/rollup", null],\
-            ["rollup", "npm:2.71.0"],\
+            ["rollup", "npm:2.71.1"],\
             ["slash", "npm:3.0.0"]\
           ],\
           "packagePeers": [\
@@ -6037,7 +6037,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/pluginutils", "virtual:2bc2af9e8faa48a4293d37ee4cc04d60aab7e84fc14b6408e86da4f63e437b027c867080a0c73f3dfbcbed2fe70074e79d7bcef9bf8a6d3f663950b1285aadbf#npm:3.1.0"],\
             ["@types/babel__core", null],\
             ["@types/rollup", null],\
-            ["rollup", "npm:2.71.0"]\
+            ["rollup", "npm:2.71.1"]\
           ],\
           "packagePeers": [\
             "@babel/core",\
@@ -6068,7 +6068,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["is-reference", "npm:1.2.1"],\
             ["magic-string", "npm:0.25.9"],\
             ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"],\
-            ["rollup", "npm:2.71.0"]\
+            ["rollup", "npm:2.71.1"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -6096,7 +6096,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["deepmerge", "npm:4.2.2"],\
             ["is-module", "npm:1.0.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"],\
-            ["rollup", "npm:2.71.0"]\
+            ["rollup", "npm:2.71.1"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -6120,7 +6120,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rollup/pluginutils", "virtual:2bc2af9e8faa48a4293d37ee4cc04d60aab7e84fc14b6408e86da4f63e437b027c867080a0c73f3dfbcbed2fe70074e79d7bcef9bf8a6d3f663950b1285aadbf#npm:3.1.0"],\
             ["@types/rollup", null],\
             ["magic-string", "npm:0.25.9"],\
-            ["rollup", "npm:2.71.0"]\
+            ["rollup", "npm:2.71.1"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -6145,7 +6145,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/rollup", null],\
             ["estree-walker", "npm:1.0.1"],\
             ["picomatch", "npm:2.3.1"],\
-            ["rollup", "npm:2.71.0"]\
+            ["rollup", "npm:2.71.1"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -23132,10 +23132,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["rollup", [\
-        ["npm:2.71.0", {\
-          "packageLocation": "./.yarn/cache/rollup-npm-2.71.0-2260ffcff7-37b5917028.zip/node_modules/rollup/",\
+        ["npm:2.71.1", {\
+          "packageLocation": "./.yarn/cache/rollup-npm-2.71.1-016f5cc11c-fe2b2fda7b.zip/node_modules/rollup/",\
           "packageDependencies": [\
-            ["rollup", "npm:2.71.0"],\
+            ["rollup", "npm:2.71.1"],\
             ["fsevents", "patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"]\
           ],\
           "linkType": "HARD"\
@@ -23174,7 +23174,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/code-frame", "npm:7.16.7"],\
             ["@types/rollup", null],\
             ["jest-worker", "npm:26.6.2"],\
-            ["rollup", "npm:2.71.0"],\
+            ["rollup", "npm:2.71.1"],\
             ["serialize-javascript", "npm:4.0.0"],\
             ["terser", "npm:5.12.1"]\
           ],\
@@ -24514,7 +24514,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-is", "npm:18.1.0"],\
             ["require-from-string", "npm:2.0.2"],\
             ["rimraf", "npm:3.0.2"],\
-            ["rollup", "npm:2.71.0"],\
+            ["rollup", "npm:2.71.1"],\
             ["rollup-plugin-flow-entry", "npm:0.3.6"],\
             ["rollup-plugin-mjs-entry", "npm:0.1.1"],\
             ["rollup-plugin-terser", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.0.2"],\
