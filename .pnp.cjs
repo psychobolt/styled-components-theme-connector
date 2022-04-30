@@ -114,7 +114,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.0.8"],\
             ["lodash", "npm:4.17.21"],\
             ["micromatch", "npm:4.0.5"],\
-            ["postcss", "npm:8.4.12"],\
+            ["postcss", "npm:8.4.13"],\
             ["postcss-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.0.4"],\
             ["prop-types", "npm:15.8.1"],\
             ["raf", "npm:3.4.1"],\
@@ -20152,6 +20152,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nanoid", "npm:3.3.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.3.3", {\
+          "packageLocation": "./.yarn/cache/nanoid-npm-3.3.3-25d865be84-ada019402a.zip/node_modules/nanoid/",\
+          "packageDependencies": [\
+            ["nanoid", "npm:3.3.3"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["nanomatch", [\
@@ -21443,6 +21450,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:8.4.13", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.13-bf011159f8-514fb35528.zip/node_modules/postcss/",\
+          "packageDependencies": [\
+            ["postcss", "npm:8.4.13"],\
+            ["nanoid", "npm:3.3.3"],\
+            ["picocolors", "npm:1.0.0"],\
+            ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["postcss-flexbugs-fixes", [\
@@ -21676,7 +21693,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.0.4"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.12"]\
+            ["postcss", "npm:8.4.13"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -24488,7 +24505,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.0.8"],\
             ["lodash", "npm:4.17.21"],\
             ["micromatch", "npm:4.0.5"],\
-            ["postcss", "npm:8.4.12"],\
+            ["postcss", "npm:8.4.13"],\
             ["postcss-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.0.4"],\
             ["prop-types", "npm:15.8.1"],\
             ["raf", "npm:3.4.1"],\
