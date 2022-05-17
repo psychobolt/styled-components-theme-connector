@@ -102,7 +102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jsx-a11y", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:6.5.1"],\
             ["eslint-plugin-react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.29.4"],\
             ["eslint-plugin-react-hooks", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.5.0"],\
-            ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.11"],\
+            ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.12"],\
             ["flow-bin", "npm:0.176.3"],\
             ["flow-typed", "npm:3.7.0"],\
             ["glob", "npm:8.0.3"],\
@@ -15368,17 +15368,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-plugin-storybook", [\
-        ["npm:0.5.11", {\
-          "packageLocation": "./.yarn/cache/eslint-plugin-storybook-npm-0.5.11-88d12429df-8a3c8913db.zip/node_modules/eslint-plugin-storybook/",\
+        ["npm:0.5.12", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-storybook-npm-0.5.12-7d5a1c4a59-13cbee3db3.zip/node_modules/eslint-plugin-storybook/",\
           "packageDependencies": [\
-            ["eslint-plugin-storybook", "npm:0.5.11"]\
+            ["eslint-plugin-storybook", "npm:0.5.12"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.11", {\
-          "packageLocation": "./.yarn/__virtual__/eslint-plugin-storybook-virtual-b03af6b88c/0/cache/eslint-plugin-storybook-npm-0.5.11-88d12429df-8a3c8913db.zip/node_modules/eslint-plugin-storybook/",\
+        ["virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.12", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-storybook-virtual-8a01054e4e/0/cache/eslint-plugin-storybook-npm-0.5.12-7d5a1c4a59-13cbee3db3.zip/node_modules/eslint-plugin-storybook/",\
           "packageDependencies": [\
-            ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.11"],\
+            ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.12"],\
             ["@storybook/csf", "npm:0.0.1"],\
             ["@types/eslint", null],\
             ["@typescript-eslint/experimental-utils", "virtual:a9f037c69c43fccd4db46926fef5c09b122f0ed1298eb7e15f926003b6552da1c257e64a1cce198daf383dd1402a77c226adda49e7172e5c37790997e982d375#npm:5.16.0"],\
@@ -24956,7 +24956,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jsx-a11y", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:6.5.1"],\
             ["eslint-plugin-react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.29.4"],\
             ["eslint-plugin-react-hooks", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.5.0"],\
-            ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.11"],\
+            ["eslint-plugin-storybook", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:0.5.12"],\
             ["flow-bin", "npm:0.176.3"],\
             ["flow-typed", "npm:3.7.0"],\
             ["glob", "npm:8.0.3"],\
