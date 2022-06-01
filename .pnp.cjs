@@ -106,7 +106,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["flow-bin", "npm:0.176.3"],\
             ["flow-typed", "npm:3.7.0"],\
             ["glob", "npm:8.0.3"],\
-            ["http-server", "npm:14.1.0"],\
+            ["http-server", "npm:14.1.1"],\
             ["is-class", "npm:0.0.9"],\
             ["jest", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
             ["jest-cli", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
@@ -17726,10 +17726,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["http-server", [\
-        ["npm:14.1.0", {\
-          "packageLocation": "./.yarn/cache/http-server-npm-14.1.0-ab0746a665-9a88fb47aa.zip/node_modules/http-server/",\
+        ["npm:14.1.1", {\
+          "packageLocation": "./.yarn/cache/http-server-npm-14.1.1-93097e8f48-4f96742891.zip/node_modules/http-server/",\
           "packageDependencies": [\
-            ["http-server", "npm:14.1.0"],\
+            ["http-server", "npm:14.1.1"],\
             ["basic-auth", "npm:2.0.1"],\
             ["chalk", "npm:4.1.2"],\
             ["corser", "npm:2.0.1"],\
@@ -25241,7 +25241,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["flow-bin", "npm:0.176.3"],\
             ["flow-typed", "npm:3.7.0"],\
             ["glob", "npm:8.0.3"],\
-            ["http-server", "npm:14.1.0"],\
+            ["http-server", "npm:14.1.1"],\
             ["is-class", "npm:0.0.9"],\
             ["jest", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
             ["jest-cli", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
