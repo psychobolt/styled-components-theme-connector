@@ -87,7 +87,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:2.0.7"],\
             ["cash-true", "npm:0.0.2"],\
-            ["concurrently", "npm:7.2.2"],\
+            ["concurrently", "npm:7.3.0"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.14.0"],\
             ["eslint-config-airbnb", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:19.0.4"],\
@@ -12750,10 +12750,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["concurrently", [\
-        ["npm:7.2.2", {\
-          "packageLocation": "./.yarn/cache/concurrently-npm-7.2.2-acda7e7c25-ae9604032d.zip/node_modules/concurrently/",\
+        ["npm:7.3.0", {\
+          "packageLocation": "./.yarn/cache/concurrently-npm-7.3.0-0123c57666-5de845e494.zip/node_modules/concurrently/",\
           "packageDependencies": [\
-            ["concurrently", "npm:7.2.2"],\
+            ["concurrently", "npm:7.3.0"],\
             ["chalk", "npm:4.1.2"],\
             ["date-fns", "npm:2.28.0"],\
             ["lodash", "npm:4.17.21"],\
@@ -24392,7 +24392,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-named-exports-order", "npm:0.0.2"],\
             ["babel-plugin-styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:2.0.7"],\
             ["cash-true", "npm:0.0.2"],\
-            ["concurrently", "npm:7.2.2"],\
+            ["concurrently", "npm:7.3.0"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.14.0"],\
             ["eslint-config-airbnb", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:19.0.4"],\
