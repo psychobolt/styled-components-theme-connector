@@ -77,7 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:13.3.0"],\
             ["@yarnpkg/core", "npm:3.2.3"],\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
-            ["app-root-path", "npm:3.0.0"],\
+            ["app-root-path", "npm:3.1.0"],\
             ["babel-jest", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
             ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.2.5"],\
             ["babel-plugin-add-module-exports", "npm:1.0.4"],\
@@ -12046,10 +12046,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["app-root-path", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/app-root-path-npm-3.0.0-029bfcbe5f-ff91a24db2.zip/node_modules/app-root-path/",\
+        ["npm:3.1.0", {\
+          "packageLocation": "./.yarn/cache/app-root-path-npm-3.1.0-9822bb2a96-e3db3957ae.zip/node_modules/app-root-path/",\
           "packageDependencies": [\
-            ["app-root-path", "npm:3.0.0"]\
+            ["app-root-path", "npm:3.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -26433,7 +26433,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@testing-library/react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:13.3.0"],\
             ["@yarnpkg/core", "npm:3.2.3"],\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
-            ["app-root-path", "npm:3.0.0"],\
+            ["app-root-path", "npm:3.1.0"],\
             ["babel-jest", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
             ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.2.5"],\
             ["babel-plugin-add-module-exports", "npm:1.0.4"],\
