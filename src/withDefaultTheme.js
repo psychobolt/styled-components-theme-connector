@@ -16,7 +16,7 @@ export default ((theme, rootName) => {
   const keys = isArray(rootName) ? rootName : (rootName && [rootName]) || undefined;
   const defaultTheme = keys ? pick(theme, keys) : theme;
   const rest = keys ? omit(theme, keys) : undefined;
-  const getTheme: ({} | undefined) => Theme = (custom = {}) => {
+  const getTheme: ({} | void) => Theme = (custom = {}) => {
     const customTheme = keys ? pick(custom, keys) : custom;
     const customRest = keys ? omit(custom, keys) : undefined;
     return {

@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import styled, { ThemeProps } from 'styled-components';
+import styled, { type ThemeProps } from 'styled-components';
 import { get } from 'lodash';
 
 export default ((selector = '') => component => styled(component)`
