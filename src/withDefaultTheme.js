@@ -7,11 +7,16 @@ type Props = {
   children: any
 };
 
+type Theme = {
+  _defaultTheme: {},
+  _customTheme: {},
+};
+
 export default ((theme, rootName) => {
   const keys = isArray(rootName) ? rootName : (rootName && [rootName]) || undefined;
   const defaultTheme = keys ? pick(theme, keys) : theme;
   const rest = keys ? omit(theme, keys) : undefined;
-  const getTheme = (custom = {}) => {
+  const getTheme: ({} | undefined) => Theme = (custom = {}) => {
     const customTheme = keys ? pick(custom, keys) : custom;
     const customRest = keys ? omit(custom, keys) : undefined;
     return {
