@@ -17708,14 +17708,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.22":
-  version: 8.4.22
-  resolution: "postcss@npm:8.4.22"
+"postcss@npm:8.4.26":
+  version: 8.4.26
+  resolution: "postcss@npm:8.4.26"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 7473dfb7ac5b4cb03576c39d687d7fc02c826ab08af97df15b5d3970662532d44a18a0994f392a9c3658ee17c292e7a55990e586b90ca0afcc9f36df13e07029
+  checksum: 1cf08ee10d58cbe98f94bf12ac49a5e5ed1588507d333d2642aacc24369ca987274e1f60ff4cbf0081f70d2ab18a5cd3a4a273f188d835b8e7f3ba381b184e57
   languageName: node
   linkType: hard
 
@@ -20303,7 +20303,7 @@ __metadata:
     jest-styled-components: 7.1.1
     lodash: 4.17.21
     micromatch: 4.0.5
-    postcss: 8.4.22
+    postcss: 8.4.26
     postcss-scss: 4.0.4
     prop-types: 15.8.1
     raf: 3.4.1
