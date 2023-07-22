@@ -79,7 +79,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:2.6.2"],\
             ["app-root-path", "npm:3.1.0"],\
             ["babel-jest", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
-            ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.2.5"],\
+            ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.3.0"],\
             ["babel-plugin-add-module-exports", "npm:1.0.4"],\
             ["babel-plugin-dynamic-import-node", "npm:2.3.3"],\
             ["babel-plugin-lodash", "npm:3.3.4"],\
@@ -12994,6 +12994,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["npm:8.3.0", {\
+          "packageLocation": "./.yarn/cache/babel-loader-npm-8.3.0-a5239d7ed2-d48bcf9e03.zip/node_modules/babel-loader/",\
+          "packageDependencies": [\
+            ["babel-loader", "npm:8.3.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["virtual:046619dab7e96f24529f67d3cd1d5c91468c89a8bb8f89d4da5f7dcdc4b3e6387a1e5a111688387f6897fae545993e0f71b3e97f4eaaf6224a1e04535f53cbe1#npm:8.2.5", {\
           "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-dccf1596aa/0/cache/babel-loader-npm-8.2.5-e749e26bb5-a660555788.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
@@ -13015,10 +13022,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.2.5", {\
-          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-29649e93c3/0/cache/babel-loader-npm-8.2.5-e749e26bb5-a660555788.zip/node_modules/babel-loader/",\
+        ["virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.3.0", {\
+          "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-dfa7a4ab19/0/cache/babel-loader-npm-8.3.0-a5239d7ed2-d48bcf9e03.zip/node_modules/babel-loader/",\
           "packageDependencies": [\
-            ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.2.5"],\
+            ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.3.0"],\
             ["@babel/core", "npm:7.22.9"],\
             ["@types/babel__core", null],\
             ["@types/webpack", null],\
@@ -27254,7 +27261,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/sdks", "npm:2.6.2"],\
             ["app-root-path", "npm:3.1.0"],\
             ["babel-jest", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:27.5.1"],\
-            ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.2.5"],\
+            ["babel-loader", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:8.3.0"],\
             ["babel-plugin-add-module-exports", "npm:1.0.4"],\
             ["babel-plugin-dynamic-import-node", "npm:2.3.3"],\
             ["babel-plugin-lodash", "npm:3.3.4"],\
