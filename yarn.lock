@@ -8754,13 +8754,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array-find@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "array-find@npm:1.0.0"
-  checksum: 6588ebfd15841296923f7c8c70f9f4cfd0e803c9f66cf53382431e5d5c763f1a866120181ba80aba7ebed73b27c5756fdb2202054e7ef475290239839185544b
-  languageName: node
-  linkType: hard
-
 "array-flatten@npm:1.1.1":
   version: 1.1.1
   resolution: "array-flatten@npm:1.1.1"
@@ -8821,6 +8814,18 @@ __metadata:
   version: 0.3.2
   resolution: "array-unique@npm:0.3.2"
   checksum: da344b89cfa6b0a5c221f965c21638bfb76b57b45184a01135382186924f55973cd9b171d4dad6bf606c6d9d36b0d721d091afdc9791535ead97ccbe78f8a888
+  languageName: node
+  linkType: hard
+
+"array.prototype.find@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "array.prototype.find@npm:2.2.1"
+  dependencies:
+    call-bind: ^1.0.2
+    define-properties: ^1.1.4
+    es-abstract: ^1.20.4
+    es-shim-unscopables: ^1.0.0
+  checksum: 3bde6c9137a1b11e28c8e098574ae93aa4c660f3b917ab08e7076ee8ca32704ee158d562437b38b8a5a03b0f0ccacf4df9b7a4e4b4497f4bbe66b8406dc334e5
   languageName: node
   linkType: hard
 
@@ -12290,25 +12295,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-webpack@npm:0.13.2":
-  version: 0.13.2
-  resolution: "eslint-import-resolver-webpack@npm:0.13.2"
+"eslint-import-resolver-webpack@npm:0.13.6":
+  version: 0.13.6
+  resolution: "eslint-import-resolver-webpack@npm:0.13.6"
   dependencies:
-    array-find: ^1.0.0
+    array.prototype.find: ^2.2.1
     debug: ^3.2.7
     enhanced-resolve: ^0.9.1
     find-root: ^1.1.0
     has: ^1.0.3
     interpret: ^1.4.0
-    is-core-module: ^2.7.0
+    is-core-module: ^2.13.0
     is-regex: ^1.1.4
     lodash: ^4.17.21
-    resolve: ^1.20.0
-    semver: ^5.7.1
+    resolve: ^2.0.0-next.4
+    semver: ^5.7.2
   peerDependencies:
     eslint-plugin-import: ">=1.4.0"
     webpack: ">=1.11.0"
-  checksum: 6c40164747bf894a0e34cbc9626566193471062e8809cef7aa8be74e0346c962d03aa7b8f3579a3d348245269860c1f241eba5379ec04acc89daffa4fb6b5f17
+  checksum: ad10a7fa0f15d9b4d8adf637283ef5a3a7cac6351867215bc4a3738f9adce22c52bde0fef031f2a775611f908605109c9d5085567ffaf600fa7445d1affcdd9a
   languageName: node
   linkType: hard
 
@@ -15079,7 +15084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.2.0, is-core-module@npm:^2.5.0, is-core-module@npm:^2.7.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
+"is-core-module@npm:^2.2.0, is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1, is-core-module@npm:^2.9.0":
   version: 2.9.0
   resolution: "is-core-module@npm:2.9.0"
   dependencies:
@@ -20833,7 +20838,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0, semver@npm:^5.7.0, semver@npm:^5.7.1":
+"semver@npm:2 || 3 || 4 || 5, semver@npm:^5.4.1, semver@npm:^5.5.0, semver@npm:^5.6.0, semver@npm:^5.7.0":
   version: 5.7.1
   resolution: "semver@npm:5.7.1"
   bin:
@@ -20857,6 +20862,15 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 692f4900dadb43919614b0df9af23fe05743051cda0d1735b5e4d76f93c9e43a266fae73cfc928f5d1489f022c5c0e65dfd2900fcf5b1839c4e9a239729afa7b
+  languageName: node
+  linkType: hard
+
+"semver@npm:^5.7.2":
+  version: 5.7.2
+  resolution: "semver@npm:5.7.2"
+  bin:
+    semver: bin/semver
+  checksum: fb4ab5e0dd1c22ce0c937ea390b4a822147a9c53dbd2a9a0132f12fe382902beef4fbf12cf51bb955248d8d15874ce8cd89532569756384f994309825f10b686
   languageName: node
   linkType: hard
 
@@ -21912,7 +21926,7 @@ __metadata:
     eslint-config-react-app: 7.0.1
     eslint-import-resolver-alias: 1.1.2
     eslint-import-resolver-node: 0.3.9
-    eslint-import-resolver-webpack: 0.13.2
+    eslint-import-resolver-webpack: 0.13.6
     eslint-plugin-flowtype: 8.0.3
     eslint-plugin-import: 2.28.1
     eslint-plugin-jest: 27.2.3
