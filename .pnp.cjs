@@ -114,7 +114,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.1.1"],\
             ["lodash", "npm:4.17.21"],\
             ["micromatch", "npm:4.0.5"],\
-            ["postcss", "npm:8.4.28"],\
+            ["postcss", "npm:8.4.29"],\
             ["postcss-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.0.7"],\
             ["prop-types", "npm:15.8.1"],\
             ["raf", "npm:3.4.1"],\
@@ -27702,10 +27702,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:8.4.28", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.28-ce7cf45f10-f605c24a36.zip/node_modules/postcss/",\
+        ["npm:8.4.29", {\
+          "packageLocation": "./.yarn/cache/postcss-npm-8.4.29-2319a64d31-dd6daa25e7.zip/node_modules/postcss/",\
           "packageDependencies": [\
-            ["postcss", "npm:8.4.28"],\
+            ["postcss", "npm:8.4.29"],\
             ["nanoid", "npm:3.3.6"],\
             ["picocolors", "npm:1.0.0"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -27944,7 +27944,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.0.7"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.28"]\
+            ["postcss", "npm:8.4.29"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -31064,7 +31064,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-styled-components", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:7.1.1"],\
             ["lodash", "npm:4.17.21"],\
             ["micromatch", "npm:4.0.5"],\
-            ["postcss", "npm:8.4.28"],\
+            ["postcss", "npm:8.4.29"],\
             ["postcss-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:4.0.7"],\
             ["prop-types", "npm:15.8.1"],\
             ["raf", "npm:3.4.1"],\
