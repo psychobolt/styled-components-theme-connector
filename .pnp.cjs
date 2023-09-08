@@ -135,7 +135,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-standard-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:5.0.0"],\
             ["stylelint-config-styled-components", "npm:0.1.1"],\
             ["stylelint-processor-styled-components", "https://github.com/psychobolt/stylelint-processor-styled-components.git#commit=a8f7cb15b42925a961ffd8af7c6e2ce13ffb3cd5"],\
-            ["symlink-dir", "npm:5.1.1"],\
+            ["symlink-dir", "npm:5.2.0"],\
             ["webpack", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:5.88.2"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -31364,7 +31364,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint-config-standard-scss", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:5.0.0"],\
             ["stylelint-config-styled-components", "npm:0.1.1"],\
             ["stylelint-processor-styled-components", "https://github.com/psychobolt/stylelint-processor-styled-components.git#commit=a8f7cb15b42925a961ffd8af7c6e2ce13ffb3cd5"],\
-            ["symlink-dir", "npm:5.1.1"],\
+            ["symlink-dir", "npm:5.2.0"],\
             ["webpack", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:5.88.2"],\
             ["yargs", "npm:17.7.2"]\
           ],\
@@ -31681,10 +31681,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["symlink-dir", [\
-        ["npm:5.1.1", {\
-          "packageLocation": "./.yarn/cache/symlink-dir-npm-5.1.1-c32cb414d0-9cff2d5dfa.zip/node_modules/symlink-dir/",\
+        ["npm:5.2.0", {\
+          "packageLocation": "./.yarn/cache/symlink-dir-npm-5.2.0-7dbb615bd0-b79419e16a.zip/node_modules/symlink-dir/",\
           "packageDependencies": [\
-            ["symlink-dir", "npm:5.1.1"],\
+            ["symlink-dir", "npm:5.2.0"],\
             ["better-path-resolve", "npm:1.0.0"],\
             ["rename-overwrite", "npm:4.0.3"]\
           ],\
