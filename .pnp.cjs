@@ -73,7 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/jest", "npm:0.2.2"],\
             ["@storybook/manager-webpack5", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:6.5.16"],\
             ["@storybook/react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:6.5.16"],\
-            ["@storybook/testing-library", "npm:0.2.0"],\
+            ["@storybook/testing-library", "npm:0.2.2"],\
             ["@testing-library/react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:14.0.0"],\
             ["@yarnpkg/core", "npm:3.2.3"],\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
@@ -12295,12 +12295,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@storybook/testing-library", [\
-        ["npm:0.2.0", {\
-          "packageLocation": "./.yarn/cache/@storybook-testing-library-npm-0.2.0-3a29b7ba9c-1c1c16aea6.zip/node_modules/@storybook/testing-library/",\
+        ["npm:0.2.2", {\
+          "packageLocation": "./.yarn/cache/@storybook-testing-library-npm-0.2.2-4b0286ed86-8ccdc1fbbb.zip/node_modules/@storybook/testing-library/",\
           "packageDependencies": [\
-            ["@storybook/testing-library", "npm:0.2.0"],\
+            ["@storybook/testing-library", "npm:0.2.2"],\
             ["@testing-library/dom", "npm:9.3.1"],\
-            ["@testing-library/user-event", "virtual:3a29b7ba9c6cbda27ff9bc37bb2973be83c8694cdd00e9dc1ddaf5b4e00ccd9fe7c28f8b7d3bde47f6b1483d58a55426da0989f3832560b0e9d6d4e3ec82a5f7#npm:14.4.3"],\
+            ["@testing-library/user-event", "virtual:4b0286ed86a0514d587e18ff75a9e5899e7b97e56b5e291227325ba535166613130c0d046c006e26c770ec56e0d344ca8b2fa302b2ced0f6a45150fbed8bc279#npm:14.6.1"],\
             ["ts-dedent", "npm:2.2.0"]\
           ],\
           "linkType": "HARD"\
@@ -12490,17 +12490,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@testing-library/user-event", [\
-        ["npm:14.4.3", {\
-          "packageLocation": "./.yarn/cache/@testing-library-user-event-npm-14.4.3-2d1a75355f-852c48ea6d.zip/node_modules/@testing-library/user-event/",\
+        ["npm:14.6.1", {\
+          "packageLocation": "./.yarn/cache/@testing-library-user-event-npm-14.6.1-5da7e1d4e2-4cb8a81fea.zip/node_modules/@testing-library/user-event/",\
           "packageDependencies": [\
-            ["@testing-library/user-event", "npm:14.4.3"]\
+            ["@testing-library/user-event", "npm:14.6.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3a29b7ba9c6cbda27ff9bc37bb2973be83c8694cdd00e9dc1ddaf5b4e00ccd9fe7c28f8b7d3bde47f6b1483d58a55426da0989f3832560b0e9d6d4e3ec82a5f7#npm:14.4.3", {\
-          "packageLocation": "./.yarn/__virtual__/@testing-library-user-event-virtual-b92466e220/0/cache/@testing-library-user-event-npm-14.4.3-2d1a75355f-852c48ea6d.zip/node_modules/@testing-library/user-event/",\
+        ["virtual:4b0286ed86a0514d587e18ff75a9e5899e7b97e56b5e291227325ba535166613130c0d046c006e26c770ec56e0d344ca8b2fa302b2ced0f6a45150fbed8bc279#npm:14.6.1", {\
+          "packageLocation": "./.yarn/__virtual__/@testing-library-user-event-virtual-aa6f3f9edb/0/cache/@testing-library-user-event-npm-14.6.1-5da7e1d4e2-4cb8a81fea.zip/node_modules/@testing-library/user-event/",\
           "packageDependencies": [\
-            ["@testing-library/user-event", "virtual:3a29b7ba9c6cbda27ff9bc37bb2973be83c8694cdd00e9dc1ddaf5b4e00ccd9fe7c28f8b7d3bde47f6b1483d58a55426da0989f3832560b0e9d6d4e3ec82a5f7#npm:14.4.3"],\
+            ["@testing-library/user-event", "virtual:4b0286ed86a0514d587e18ff75a9e5899e7b97e56b5e291227325ba535166613130c0d046c006e26c770ec56e0d344ca8b2fa302b2ced0f6a45150fbed8bc279#npm:14.6.1"],\
             ["@testing-library/dom", "npm:9.3.1"],\
             ["@types/testing-library__dom", null]\
           ],\
@@ -30169,7 +30169,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/jest", "npm:0.2.2"],\
             ["@storybook/manager-webpack5", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:6.5.16"],\
             ["@storybook/react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:6.5.16"],\
-            ["@storybook/testing-library", "npm:0.2.0"],\
+            ["@storybook/testing-library", "npm:0.2.2"],\
             ["@testing-library/react", "virtual:4873ec56db0b0acd266564d3ba6fdc5b53141e806598163a780705cb3bcdeb2a0168075a3fdb66750b7e033e482f9045d342ed3262df27d75dce09bfaa707571#npm:14.0.0"],\
             ["@yarnpkg/core", "npm:3.2.3"],\
             ["@yarnpkg/sdks", "npm:2.6.2"],\
